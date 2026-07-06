@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import JobName from './Component/JobName'
+import { JobBox } from './Component/JobBox'
 
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
     <>
     <div className="App">
       <JobName />
+      <JobBox />
     </div>
+
     </>
   )
 }

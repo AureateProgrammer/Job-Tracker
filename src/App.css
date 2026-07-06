@@ -37,6 +37,19 @@
     
 }
 
+.notes #addbtn{
+    background:linear-gradient(90deg,var(--accent), #7c84ff);
+    color:white;
+    border:none;
+    padding:10px 14px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:600;
+    box-shadow: 0 8px 20px rgba(99,102,241,0.12);
+    transition: transform 180ms ease, box-shadow 180ms ease, opacity 180ms;
+
+}
+
 html,body{height:100%}
 body{
     margin:0;

@@ -21,7 +21,7 @@ export function Notes() {
             </ul>
             <form onSubmit={handleAddNote}>
                 <input type="text" placeholder="Add a note..." />
-                <button type="submit">Add Note</button>
+                <button id="addbtn" type="submit">Add Note</button>
             </form>
 
         </div>

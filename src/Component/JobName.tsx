@@ -4,8 +4,8 @@ export function JobName() {
   return (
     <header className="jobname">
       <div className="title">
-        <h1>Job Tracker</h1>
-        <p className="subtitle">Track your job applications and stay organized!</p>
+        <h1>Job Application Tracker</h1>
+        <p className="subtitle">Track Application and stay organized!</p>
       </div>
 
       <ul className="ul1">

@@ -17,16 +17,21 @@ export function JobBox() {
   const [submit, setSubmit] = React.useState<boolean>(false);
 
   return (
+
+    function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+      event.preventDefault();
+    {/*adding the job to the list of jobs*/}
     <div className="jobbox">
-      <form>
+      <form onSubmit={handleSubmit}>
         <h1>Add Job</h1>
         <input type="text" placeholder="Company Name" />
         <input type="text" placeholder="Position" />
         <input type="date" placeholder="Application Date" />
         <button>Add Job</button>
+  
       </form>
 
-
+{/*display the list of jobs added by the user-form*/}
       <div className="display">
         <h2>Job Listings</h2>
         <ul className="ul1">
